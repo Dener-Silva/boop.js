@@ -6,11 +6,11 @@ import { Circle } from "../../src/colliders/Circle";
 export function createColliders(maxX: number, maxY: number): Collider[] {
     let colliders: Collider[] = [];
     for (let i = 0; i < 200; i++) {
-        let square = new Polygon([-45, -30, -45, 30, 45, 0]);
-        square.x = Math.random() * maxX;
-        square.y = Math.random() * maxY;
-        square.rotation = Math.random() * 2 * Math.PI;
-        colliders.push(square);
+        let triangle = new Polygon([-45, -30, -45, 30, 45, 0]);
+        triangle.x = Math.random() * maxX;
+        triangle.y = Math.random() * maxY;
+        triangle.rotation = Math.random() * 2 * Math.PI;
+        colliders.push(triangle);
     }
     for (let i = 0; i < 800; i++) {
         let point = new Point();
