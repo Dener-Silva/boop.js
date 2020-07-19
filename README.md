@@ -21,6 +21,7 @@ Feel free to fork the repository and add more features.
 ## Not Features
 - No overlap data, though I may add in the future
 - No overlap negation
+- No concave polygon support
 - No pyhsics. If you want pyhsics you are better off using something like Matter.js
 
 ## Usage example
