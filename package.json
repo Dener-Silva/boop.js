@@ -1,12 +1,13 @@
 {
-  "name": "basic_collision",
+  "name": "boop.js",
   "version": "0.1.0",
   "description": "Small and simple collision detection for 2D games",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/hello.d.ts",
   "scripts": {
     "bench": "ts-node bench/index.ts",
     "test": "mocha -r ts-node/register test/**/*.test.ts",
-    "tsc": "tsc"
+    "tsc": "rd /s /q \"dist\" && tsc"
   },
   "author": "Dener Silva",
   "license": "MIT",
