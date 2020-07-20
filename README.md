@@ -17,6 +17,7 @@ Feel free to fork the repository and add more features.
 - Can be used on the browser or on the server with node.js
 - Good performance
   - Handles 1200 colliders at 2800 ops/sec with test data based on my game
+- No external dependencies
   
 ## Not Features
 - No overlap data, though I may add in the future
