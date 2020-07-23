@@ -15,6 +15,15 @@
   "files": [
     "dist"
   ],
+  "keywords": [
+    "collision",
+    "collision detection",
+    "SAT",
+    "SAP",
+    "separating axis",
+    "sweep and prune"
+  ],
+  "repository": {"url": "https://github.com/Dener-Silva/boop.js/"},
   "devDependencies": {
     "@types/benchmark": "^1.0.33",
     "@types/chai": "^4.2.11",
