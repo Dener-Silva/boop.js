@@ -12,6 +12,9 @@
   },
   "author": "Dener Silva",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@types/benchmark": "^1.0.33",
     "@types/chai": "^4.2.11",
