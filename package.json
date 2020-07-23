@@ -1,9 +1,9 @@
 {
   "name": "boop.js",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Small and simple collision detection for 2D games",
   "main": "dist/index.js",
-  "types": "dist/hello.d.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "bench": "ts-node bench/index.ts",
     "test": "mocha -r ts-node/register test/**/*.test.ts",
@@ -15,6 +15,17 @@
   "files": [
     "dist"
   ],
+  "keywords": [
+    "collision",
+    "collision detection",
+    "SAT",
+    "SAP",
+    "separating axis",
+    "sweep and prune"
+  ],
+  "repository": {
+    "url": "https://github.com/Dener-Silva/boop.js/"
+  },
   "devDependencies": {
     "@types/benchmark": "^1.0.33",
     "@types/chai": "^4.2.11",
