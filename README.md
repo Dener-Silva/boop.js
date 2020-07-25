@@ -34,7 +34,7 @@ let point = new Point();
 let circle = new Circle(1);
 
 // Add colliders to the system
-collisionSystem.add([triangle, point, circle]);
+collisionSystem.add(triangle, point, circle);
 
 function yourGameLoop(): void {
   // First, update the positions

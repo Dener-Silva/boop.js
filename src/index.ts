@@ -11,11 +11,11 @@ export class CollisionSystem {
 
     private sap = new SweepAndPrune();
 
-    add(colliders: Collider[]) {
+    add(...colliders: Collider[]) {
         this.sap.add(colliders);
     }
 
-    remove(colliders: Collider[]) {
+    remove(...colliders: Collider[]) {
         this.sap.remove(colliders);
     }
 
