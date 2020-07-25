@@ -1,9 +1,5 @@
-import { expect, assert } from 'chai'
-import { Polygon } from "../src/colliders/Polygon";
-import { CollisionSystem } from '../src';
-import { Point } from '../src/colliders/Point';
-import { Circle } from '../src/colliders/Circle';
-import { Collider } from '../src/colliders/Collider';
+import { expect } from 'chai'
+import { CollisionSystem, Collider, Circle, Point, Polygon } from '../src';
 
 describe('Example Usage', () => {
 

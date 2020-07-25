@@ -1,6 +1,9 @@
-import { Collider } from "./colliders/Collider";
+import { Collider as ColliderExport } from "./colliders/Collider";
 import { SweepAndPrune } from "./broad/SweepAndPrune";
 import { collides } from "./narrow/NarrowCollisionTest";
+import { Circle as CircleExport } from "./colliders/Circle";
+import { Point as PointExport } from "./colliders/Point";
+import { Polygon as PolygonExport } from "./colliders/Polygon";
 
 export type ColliderPairs = [Collider, Collider][]
 
@@ -36,3 +39,12 @@ export class CollisionSystem {
     }
 }
 
+// Exports for the API
+export const Collider = ColliderExport;
+export type Collider = ColliderExport;
+export const Circle = CircleExport;
+export type Circle = CircleExport;
+export const Point = PointExport;
+export type Point = PointExport;
+export const Polygon = PolygonExport;
+export type Polygon = PolygonExport;
